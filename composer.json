@@ -3,12 +3,7 @@
   "description": "Provides Drush commands for generating Drupal code using Drupal Code Builder.",
   "type": "drupal-drush",
   "extra": {
-    "installer-name": "code_builder_commands",
-    "drush": {
-      "services": {
-        "drush.services.yml": "^9"
-      }
-    }
+    "installer-name": "code_builder_commands"
   },
   "license": "GPL-2.0+",
   "require": {
