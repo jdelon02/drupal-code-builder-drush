@@ -1,1 +1,18 @@
+
+
+# Generally you should only ignore the root vendor directory. It's important
+# that core/assets/vendor and any other vendor directories within contrib or
+# custom module, theme, etc., are not ignored unless you purposely do so.
 /vendor/
+composer.lock
+
+# Ignore other scaffold files
+#
+# Ignore all files placed directly at the project root. Rely on
+# .gitignore files placed by drupal/core-composer-scaffold to avoid
+# build errors that arise if non-ignored files are scaffolded.
+# ------------------------------------------------------------------
+/.editorconfig
+/.gitattributes
+
+
